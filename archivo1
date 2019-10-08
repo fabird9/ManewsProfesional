@@ -15,8 +15,8 @@ public class EjemploFile01 {
 		} catch (IOException e) {
 			// FIXME Auto-generated catch block
 			e.printStackTrace();
-		}
+		} finally {
 		System.out.println("Fin del programa");
-	
+		}
 	}
 }
