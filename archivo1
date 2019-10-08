@@ -13,7 +13,7 @@ public class EjemploFile01 {
 			f.createNewFile();
 			f1.createNewFile();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// FIXME Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println("Fin del programa");
