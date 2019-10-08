@@ -12,8 +12,8 @@ public class EjemploFile01 {
 		} catch (IOException e) {
 			
 			e.printStackTrace();
-		}
+		} finally {
 		System.out.println("Fin del programa");
-	
+		}
 	}
 }
