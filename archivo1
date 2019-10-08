@@ -7,13 +7,13 @@ import java.io.IOException;
 public class EjemploFile01 {
 
 	public static void main(String[] args)  {
-		File f = new File("D:\\XXXXX111.txt");
-		File f1 = new File("D:"+File.separator+"XXX111.txt");
+		File f = new File("XXXXX111.txt");
+		File f1 = new File("XXX111.txt");
 		try {
 			f.createNewFile();
 			f1.createNewFile();
 		} catch (IOException e) {
-			// FIXME Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		System.out.println("Fin del programa");
